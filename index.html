@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CSE Technical Club Portal — Bharati Vidyapeeth's College of Engineering. Join workshops, hackathons, and open-source projects." />
+  <title>CSE Tech Club — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ───────────────────────────────────────── -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <div class="nav-inner">
+          <a href="index.html" class="nav-logo" aria-label="CSE Tech Club home">
+            <span>CSE</span> Tech Club
+          </a>
+          <ul class="nav-links" role="list">
+            <li><a href="index.html"   id="nav-home">Home</a></li>
+            <li><a href="events.html"  id="nav-events">Events</a></li>
+            <li><a href="team.html"    id="nav-team">Team</a></li>
+            <li><a href="contact.html" id="nav-contact">Join Us</a></li>
+          </ul>
+          <button id="theme-toggle" aria-label="Toggle colour theme">◑ Light</button>
+          <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile drawer -->
+      <nav class="nav-drawer" id="nav-drawer" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Join Us</a>
+      </nav>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ─────────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <span class="hero-label">Dept. of CSE · BVCOE New Delhi</span>
+        <h1 id="hero-heading">Build.<br />Compete.<br />Innovate.</h1>
+        <p class="hero-sub">
+          The official technical community of the CSE department — where students
+          learn, collaborate, and ship real projects together.
+        </p>
+        <div class="hero-actions">
+          <a href="events.html" class="btn btn-solid" id="cta-events">View Events</a>
+          <a href="contact.html" class="btn" id="cta-join">Join the Club →</a>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-row" aria-label="Club statistics">
+          <div class="stat-item">
+            <div class="stat-number">200+</div>
+            <div class="stat-label">Members</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">40+</div>
+            <div class="stat-label">Events / Year</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Projects Shipped</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ─────────────────────────────────────────── -->
+    <section class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="about-heading">About the Club</h2>
+          <span class="section-tag">Who we are</span>
+        </div>
+        <div class="about-grid reveal">
+          <div class="about-cell">
+            <h3 style="margin-bottom:1rem;">Our Mission</h3>
+            <p style="margin-bottom:1rem;">
+              We exist to bridge the gap between classroom academia and the real-world
+              demands of the software industry. Every initiative — from beginner
+              workshops to competitive hackathons — is designed to push students one
+              step further.
+            </p>
+            <p>
+              Whether you're writing your first line of code or deploying production
+              systems, there's a place for you here.
+            </p>
+          </div>
+          <div class="about-cell">
+            <h3 style="margin-bottom:1rem;">What We Do</h3>
+            <ul style="display:flex;flex-direction:column;gap:0.8rem;">
+              <li style="display:flex;gap:0.8rem;align-items:flex-start;">
+                <span style="color:var(--text-muted);font-size:0.75rem;padding-top:0.1rem;">01</span>
+                <span style="font-size:0.9rem;color:var(--text-sec);">Run weekly coding sessions, workshops, and study circles</span>
+              </li>
+              <li style="display:flex;gap:0.8rem;align-items:flex-start;">
+                <span style="color:var(--text-muted);font-size:0.75rem;padding-top:0.1rem;">02</span>
+                <span style="font-size:0.9rem;color:var(--text-sec);">Host inter-college hackathons and competitive programming contests</span>
+              </li>
+              <li style="display:flex;gap:0.8rem;align-items:flex-start;">
+                <span style="color:var(--text-muted);font-size:0.75rem;padding-top:0.1rem;">03</span>
+                <span style="font-size:0.9rem;color:var(--text-sec);">Mentor students in open-source contributions and placement prep</span>
+              </li>
+              <li style="display:flex;gap:0.8rem;align-items:flex-start;">
+                <span style="color:var(--text-muted);font-size:0.75rem;padding-top:0.1rem;">04</span>
+                <span style="font-size:0.9rem;color:var(--text-sec);">Collaborate with industry professionals through tech talks and panels</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FEATURES ──────────────────────────────────────── -->
+    <section class="section" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="features-heading">What's Inside</h2>
+          <span class="section-tag">Core pillars</span>
+        </div>
+        <div class="features-grid reveal">
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⌨</span>
+            <h3>Workshops</h3>
+            <p>Hands-on technical sessions every week covering web dev, ML, cloud, DevOps, and more. All levels welcome.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⚡</span>
+            <h3>Hackathons</h3>
+            <p>Our flagship Hack-CSE draws teams from across Delhi NCR. 48 hours, real problems, and serious prizes.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon" aria-hidden="true">◈</span>
+            <h3>Open Source</h3>
+            <p>Contribute to real repos, build a portfolio, and earn recognition from the global developer community.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA STRIP ──────────────────────────────────────── -->
+    <section class="section" aria-label="Call to action">
+      <div class="container">
+        <div class="card reveal" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem;">
+          <div>
+            <h3 style="margin-bottom:0.4rem;">Ready to join?</h3>
+            <p style="font-size:0.88rem;">Applications are open for all years and branches.</p>
+          </div>
+          <a href="contact.html" class="btn btn-solid" id="cta-join-bottom">Apply Now →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2026 CSE Tech Club · Bharati Vidyapeeth's College of Engineering, New Delhi</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>

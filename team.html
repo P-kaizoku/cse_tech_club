@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet the team behind the CSE Technical Club." />
+  <title>Team — CSE Tech Club</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ───────────────────────────────────────── -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <div class="nav-inner">
+          <a href="index.html" class="nav-logo" aria-label="CSE Tech Club home">
+            <span>CSE</span> Tech Club
+          </a>
+          <ul class="nav-links" role="list">
+            <li><a href="index.html"   id="nav-home">Home</a></li>
+            <li><a href="events.html"  id="nav-events">Events</a></li>
+            <li><a href="team.html"    id="nav-team">Team</a></li>
+            <li><a href="contact.html" id="nav-contact">Join Us</a></li>
+          </ul>
+          <button id="theme-toggle" aria-label="Toggle colour theme">◑ Light</button>
+          <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile drawer -->
+      <nav class="nav-drawer" id="nav-drawer" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Join Us</a>
+      </nav>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section-header">
+          <h1 id="team-heading">The Team</h1>
+          <span class="section-tag">Core Members</span>
+        </div>
+        
+        <p style="margin-bottom: 3rem; max-width: 600px; color: var(--text-sec);">
+          Meet the minds driving our club's initiatives. From managing hackathons to mentoring juniors, our core team ensures the smooth execution of all club activities.
+        </p>
+
+        <!-- Team Grid -->
+        <div class="team-grid reveal">
+          <!-- Member 1 -->
+          <article class="member-card">
+            <div class="member-avatar">RA</div>
+            <h3 class="member-name">Rahul Sharma</h3>
+            <span class="member-role">President</span>
+            <div class="member-bio">Final year CSE. Specialized in Full Stack Development and Cloud Architecture. Led Hack-CSE 4.0.</div>
+          </article>
+          
+          <!-- Member 2 -->
+          <article class="member-card">
+            <div class="member-avatar">AT</div>
+            <h3 class="member-name">Anjali Tiwari</h3>
+            <span class="member-role">Vice President</span>
+            <div class="member-bio">3rd year CSE. AI/ML enthusiast. Published 2 research papers and manages our open source initiatives.</div>
+          </article>
+
+          <!-- Member 3 -->
+          <article class="member-card">
+            <div class="member-avatar">MK</div>
+            <h3 class="member-name">Manish Kumar</h3>
+            <span class="member-role">Technical Lead</span>
+            <div class="member-bio">3rd year. Competitive programmer, Expert on Codeforces. Conducts our weekly DSA study circles.</div>
+          </article>
+
+          <!-- Member 4 -->
+          <article class="member-card">
+            <div class="member-avatar">SP</div>
+            <h3 class="member-name">Sneha Patel</h3>
+            <span class="member-role">Design Lead</span>
+            <div class="member-bio">2nd year UI/UX designer. Creates the visual identity for all our events, portals, and branding material.</div>
+          </article>
+          
+          <!-- Member 5 -->
+          <article class="member-card">
+            <div class="member-avatar">VD</div>
+            <h3 class="member-name">Vikram Desai</h3>
+            <span class="member-role">Events Manager</span>
+            <div class="member-bio">2nd year. Handles logistics, speaker onboarding, and ensuring all our offline workshops run without a hitch.</div>
+          </article>
+
+           <!-- Member 6 -->
+          <article class="member-card">
+            <div class="member-avatar">PJ</div>
+            <h3 class="member-name">Priya Jain</h3>
+            <span class="member-role">PR & Outreach</span>
+            <div class="member-bio">2nd year. Manages our social media presence, student interactions, and external college communications.</div>
+          </article>
+          
+          <!-- Join Card -->
+          <article class="member-card" style="background: var(--surface); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+            <div style="font-size: 2rem; margin-bottom: 1rem; color: var(--text-sec); border: 1px dotted var(--text-sec); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 50%;">+</div>
+            <h3 class="member-name">You?</h3>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">We are always looking for passionate individuals.</p>
+            <a href="contact.html" class="btn btn-sm">Join the Team</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2026 CSE Tech Club · Bharati Vidyapeeth's College of Engineering, New Delhi</p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="events.html">Events</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
