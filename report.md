@@ -1,7 +1,8 @@
 # Technical Club Portal — Project Report
 
-**Name:** [Your Name]  
-**Course/Section:** [Your Course/Section]  
+**Name:** Pabitra Mondal  
+**Course/Section:** Btech CSE(aiml), 6th sem.   
+**Live Site:** [https://p-kaizoku.github.io/cse_tech_club/](https://p-kaizoku.github.io/cse_tech_club/)
 
 ---
 
